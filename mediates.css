@@ -2,50 +2,68 @@
     margin: auto;
 }
 
+body{
+    margin-top: 70px;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
 }
 
 .header{
+    width: 100%;
     background-color: black;
-    height:50px;
+    height:70px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    text-align: center;
 }
 
-.h1{
-    text-align: left;
-    color: rgb(60, 71, 214);
-    margin-left: 20px;
-    margin-top: 10px;
+.header .h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
     float: left;
-    line-height: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.header .h1 em{
+    color: rgb(60, 71, 214);
+    font-style: normal;
 }
 
 .navbar{
     height: 50px;
-    text-align: right;
     overflow: hidden;
+    margin-right: 60px;
 }
 
 .navbar ul li{
     text-decoration: none;
     float: right;
-    background-color: rgb(60, 71, 214);
-    text-align: right;
-    margin-right: 15px;
-    margin-top: 10px;
+    margin-right: 35px;
+    margin-top: 25px;
     display: block;
 }
 
 .navbar ul li a{
     text-decoration: none;
     display: block;
-    padding: 5px;
-    color: black;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar ul li:nth-child(5) a{
+    color: rgb(60, 71, 214);
+    opacity: 1;
 }
 
 .navbar ul li a:hover{
-    background-color: lightskyblue;
+    color: rgb(60, 71, 214);
 }
 
 .isigambar{
