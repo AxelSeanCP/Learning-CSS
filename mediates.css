@@ -88,6 +88,7 @@ li a, .dropbtn{
 /*awal jumbotron*/
 .video-jumbotron{
     position: relative;
+    text-align: center;
 }
 
 #bgvideo{
@@ -96,7 +97,61 @@ li a, .dropbtn{
     max-width: 100%;
     max-height: 800px;
     object-fit: contain;
-    filter: brightness(80%);
+    filter: brightness(20%);
+}
+
+.video-caption{
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-caption h6{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+
+.video-caption h2{
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.video-caption h2 em{
+    font-style: normal;
+    color: rgb(60, 71, 214);
+}
+
+.button-caption{
+    display: inline-block;
+}
+
+.button-caption a{
+    color: #faf4f4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: rgb(60, 71, 214);
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: a11 .3s;
+    transition: filter 0.3s ease;
+    border-radius: 5px;
+}
+
+.button-caption a:hover{
+    filter: brightness(1.2);
 }
 /*akhir jumbotron*/
 /*awal content*/
@@ -279,6 +334,26 @@ li a, .dropbtn{
 }
 
 /*akhir about us*/
+/*awal footer*/
+.container-footer{
+    text-align: center;
+}
+
+.container-footer p{
+    color: #1A1313;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-footer a{
+    color: rgb(60, 71, 214);
+    text-decoration: none;
+    font-weight: 800;
+}
+/*akhir footer*/
 .bersih{
     clear: both;
 }
