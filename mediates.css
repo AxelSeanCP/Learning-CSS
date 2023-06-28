@@ -13,7 +13,7 @@
     height:70px;
     position: sticky;
     top: 0%;
-    z-index: 1;
+    z-index: 3;
     text-align: center;
 }
 
@@ -334,6 +334,94 @@ li a, .dropbtn{
 }
 
 /*akhir about us*/
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subcontainer{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.testi-caption{
+    order: -1;
+    flex-basis: 80%;
+    height: 400px;
+    text-align: center;
+}
+
+.testi-caption-container{
+    width: 50%;
+    margin-top: 140px;
+}
+
+.testi-caption-container > h2{
+    color: #1A1313;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.testi-caption-container > h2 > em{
+    font-style: normal;
+    color: rgb(60, 71, 214);
+}
+
+.testi-caption-container > p{
+    color: #7a7a7a;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 30px;
+}
+
+.testi-caption-container > img{
+    width: 80px;
+    margin-top: 30px;
+}
+
+.testi-feature{
+    flex-basis: 50%;
+    height: 500px;
+}
+
+.feature-item{
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.feature-item > .left-img > img{
+    float: left;
+    margin-right: 30px;
+}
+
+.feature-item > .right-content{
+    display: inline;
+}
+
+.feature-item .right-content h4{
+    letter-spacing: 0.25px;
+    margin-bottom: 8px;
+    color: #232d39;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feature-item .right-content p {
+    line-height: 26px;
+    font-size: 17px;
+    color: #7a7a7a;
+}
+
+.testi-feature ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 /*awal footer*/
 .container-footer{
     text-align: center;
