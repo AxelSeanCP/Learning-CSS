@@ -334,6 +334,7 @@ li a, .dropbtn{
 }
 
 /*akhir about us*/
+/*awal testimonials*/
 .testimonials{
     display: flex;
     flex-direction: row;
@@ -422,6 +423,37 @@ li a, .dropbtn{
     padding: 0;
     margin: 0;
 }
+
+.testi-button-container{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testi-main-button{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.testi-main-button a{
+    color: #faf4f4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: rgb(60, 71, 214);
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: a11 .3s;
+    transition: filter 0.3s ease;
+    border-radius: 5px;
+}
+
+.testi-main-button a:hover{
+    filter: brightness(1.2);
+}
+/*akhir testimonials*/
 /*awal footer*/
 .container-footer{
     text-align: center;
